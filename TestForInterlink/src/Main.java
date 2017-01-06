@@ -11,6 +11,8 @@ public class Main {
 		System.out.println(like.getName());
 		System.out.println(like.voise());
 		
+		Voise voiseMyPet=new Cat("Murka", 12,"Ukraine",8);
+		System.out.println(voiseMyPet.voise());
 	
     
 	}
